@@ -11,9 +11,8 @@ dyld: Library not loaded: /usr/local/opt/openssl@1.1/lib/libssl.1.1.dylib
   Referenced from: /Users/123/.local/share/solana/install/active_release/bin/solana-test-validator
   Reason: image not found
 zsh: abort      solana-test-validator
-
 ```
-
+test-solana-validator를 입력하면 위와 에러가 뜬다.
 https://github.com/solana-labs/example-helloworld/issues/200
 위 깃헙을 포함하여, "solana-test-validator M1 mac openssl"으로 구글링을 하면
 나와 같이 애먹고 있는 아주 많은 사람들이 깃헙과 스택 오버플로우에 질문을 올렸다.
@@ -38,7 +37,6 @@ Reference의 두 페이지를 참고하여 진행하면 되는데 요약하자�
 --faucet-sol argument ignored, ledger already exists
 ⠤ Initializing...
 ⠁ 00:00:10 | Processed Slot: 26 | Confirmed Slot: 25 | Finalized Slot: 0 | Full
-
 ```
 세팅 완료!
 
