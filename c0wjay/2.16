@@ -1,0 +1,18 @@
+[M1 Mac에서의 solana 개발 환경 세팅]
+TL;DR
+- 솔라나 개발환경은 이더리움과 다르게 불친절하다.
+- M1 맥에서의 이슈가 거의 1년은 되가는데도, M1 맥 환경을 제대로 지원해주지 않는다.
+
+
+[M1 Mac에서의 solana 개발 환경 이슈]
+https://github.com/solana-labs/example-helloworld/issues/200
+위 깃헙을 포함하여, "solana-test-validator M1 mac openssl"으로 구글링을 하면
+나와 같이 애먹고 있는 아주 많은 사람들이 깃헙과 스택 오버플로우에 질문을 올렸다.
+
+다만 그 질문에 대한 답변 대부분은
+- openssl 다시 설치하세요.
+- homebrew update하세요.
+- openssl 1.0.2 버전으로 switch하세요. 
+(참고로 homebrew 최신버전부터는 switch를 지원하지 않는다.)
+등의 전혀 도움되지 않는 답변들이 대부분이다.
+
